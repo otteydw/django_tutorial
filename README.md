@@ -24,3 +24,6 @@ Site becomes available at http://localhost:8000/ and http://localhost:8000/admin
 ```
 python manage.py startapp blog
 ```
+
+* Bootstrap starter template
+https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template
