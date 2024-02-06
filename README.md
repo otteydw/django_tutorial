@@ -18,3 +18,9 @@ python manage.py runserver
 ```
 
 Site becomes available at http://localhost:8000/ and http://localhost:8000/admin
+
+* Start a new app
+
+```
+python manage.py startapp blog
+```
