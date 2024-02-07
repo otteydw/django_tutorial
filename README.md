@@ -149,3 +149,28 @@ Using post_set to access and create posts:
 >>> user.post_set.create(title='Blog 3', content='Third Post Content!')
 <Post: Blog 3>
 ```
+
+# Crispy Forms
+
+* https://django-crispy-forms.readthedocs.io/en/latest/install.html
+* https://pypi.org/project/crispy-bootstrap4/
+
+Add the two requirements
+```
+crispy-bootstrap4
+django-crispy-forms
+```
+
+Update settings.py
+```
+    INSTALLED_APPS = (
+        ...
+        "crispy_forms",
+        "crispy_bootstrap4",
+        ...
+    )
+
+    CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+    CRISPY_TEMPLATE_PACK = "bootstrap4"
+```
