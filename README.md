@@ -174,3 +174,9 @@ Update settings.py
 
     CRISPY_TEMPLATE_PACK = "bootstrap4"
 ```
+
+# Static Files
+
+This is set up for serving static files locally for development purposes. This is not suitable for production.
+
+* [Serving static files during development](https://docs.djangoproject.com/en/5.0/howto/static-files/#serving-static-files-during-development)
